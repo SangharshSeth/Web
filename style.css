@@ -1,0 +1,177 @@
+body{
+  margin: 0;
+  padding: 0 ;
+  background-color: #333 !important;
+}
+span {
+  color:#ec407a;
+   font-family: 'Caveat', cursive;
+   font-size: 60px;
+}
+.desc{
+  color: #fff;
+  font-size: 30px;
+  font-family: Roboto', sans-serif;
+}
+.fb{
+  margin-left: 2px;
+  font-size: 25px;
+  font-family: 'PT Sans', sans-serif;
+}
+.container-fluid {
+  height: 80px;
+  width: 120px;
+  color: #99d6ff;
+}
+.cover{
+  font-family: 'Roboto-slab',serif;
+  color: #fff;
+  font-size: 40px;
+}
+.cover2{
+  font-size: 25px;
+  color: #fff;
+}
+.sm{
+  font-family: 'Roboto-slab',serif;
+  font-size: 25px;
+}
+.info{
+  background-color: #333;
+}
+.talk {
+  background-image: linear-gradient(-133deg, #7282eb, #74aee3);
+}
+.description {
+  font-family: "Open Sans", sans-serif;
+  font-size: x-large;
+}
+/* custom widths */
+.w-40 {
+  width: 40% !important;
+}
+.w-60 {
+  width: 60% !important;
+}
+.nav-link:hover {
+  background: rgba(232, 218, 239, 0.2);
+}
+#title {
+  font-family: "Bree Serif", serif;
+  font-size: 30px;
+  position: absolute;
+  left: 50%;
+  top: auto;
+  transform: translate(-50%, -50%);
+}
+.green {
+  display: block;
+
+  background: #6190e8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a7bfe8,
+    #6190e8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a7bfe8,
+    #6190e8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.name {
+  color: white;
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+}
+#main {
+  max-width: 500px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Lilita One", cursive;
+  font-size: 60px;
+}
+#main {
+  animation: yourAnimation 1s forwards 0s linear;
+}
+@keyframes yourAnimation {
+  0% {
+    transform: scale(0) translateY(-120px);
+  }
+  1% {
+  }
+  99% {
+    transform: rotate(xx) scale(1);
+  }
+}
+#p1 {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: xx-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#main p {
+  color: #99d6ff;
+}
+.logo {
+  text-align: center;
+  background-image: linear-gradient(-133deg, #7282eb, #74aee3);
+  font-family: "Pacifico", cursive;
+  font-size: xx-large;
+}
+
+#forms {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#lab_social_icon_footer {
+  padding: 40px 0;
+  background-color:#333;
+}
+
+#lab_social_icon_footer a {
+  color: #fff;
+}
+
+#lab_social_icon_footer .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+ 
+}
+
+#lab_social_icon_footer .social {
+  -webkit-transform: scale(0.8);
+  
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+#lab_social_icon_footer #social-fb:hover {
+  color: #3B5998;
+}
+
+#lab_social_icon_footer #social-tw:hover {
+  color: #4099FF;
+}
+
+#lab_social_icon_footer #social-gp:hover {
+  color: #d34836;
+}
+
+#lab_social_icon_footer #social-em:hover {
+  color: #f39c12;
+}
